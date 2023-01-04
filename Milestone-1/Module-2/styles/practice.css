@@ -1,0 +1,70 @@
+/* Universal CSS */
+*{
+    margin: 0;
+    padding: 0;
+    /* margin: auto; */
+}
+/* Header CSS */
+
+.header{
+    height: 400px;
+    width: 80%;
+    background-image: url(../images/cover.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+
+}
+.list{
+    list-style-type: none;
+    text-align: right;
+    font-size: 1em;
+    color: black;
+    width: 80%;
+    margin: auto;
+
+    
+}
+
+.list li{
+    display: inline-block;
+    margin-right: 30px;
+    background-color: aquamarine;
+    border: 5px solid aquamarine;
+    border-radius: 4px;
+    margin-top: 5px;
+    padding: 2px;
+    text-align: right;
+
+}
+
+.first{
+    height: 500px;
+    width: 40%;
+    background: brown;
+    display: inline-block;
+    margin-left: 10%;
+    padding: 10px;
+}
+.second{
+    height: 500px;
+    width: 40%;
+    background: yellow;
+    display: inline-block;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+}
+h2{
+    
+}
+p{
+    
+}
+.footer{
+
+}
+.ficon{
+
+}
