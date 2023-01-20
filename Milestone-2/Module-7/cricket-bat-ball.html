@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bat-Ball</title>
+    <style>
+        .feild{
+            border: 2px solid black;
+            width: 400px;
+        }
+        .feild:hover .bat{
+            transform: rotate(-23deg);
+            transform-origin: right;
+            transition: transform 0.5s ease-in;
+        }
+        .ball{
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+            background-color: rebeccapurple;
+            position: relative;
+            left:50px;
+            transition: transform 1s ease-out 0.5s;
+            
+        }
+        .feild:hover .ball{
+            transform: translate(300px,300px);
+        }
+        img{
+            width: 400px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Base Ball</h1>
+    <div class="feild">
+        <div class="bat">
+            <img src="images/baseball-bat-20673.png" alt="">
+        </div>
+        <div class="ball">
+
+        </div>
+    </div>
+</body>
+</html>

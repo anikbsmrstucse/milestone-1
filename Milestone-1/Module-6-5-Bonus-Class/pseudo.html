@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo selector</title>
+    <style>
+      h1 {
+        color: brown;
+        display: inline;
+        background-color: black;
+        transition: 0.5s;
+      }
+      h1:hover {
+        color: white;
+        background-color: black;
+        display: block;
+      }
+      .btn:focus {
+        color: red;
+        font-size: 20px;
+        padding: 20px 30px;
+        margin: 0;
+        background-color: black;
+        border-radius: 8px;
+      }
+      a:visited {
+        color: blue;
+        background-color: white;
+        text-decoration: red wavy underline;
+      }
+      ol {
+        font-size: 30px;
+      }
+      li:first-child {
+        color: brown;
+        background-color: khaki;
+      }
+      li:last-child {
+        color: royalblue;
+        background-color: yellowgreen;
+      }
+      li:nth-child(even) {
+        color: rosybrown;
+        font-size: 40px;
+      }
+      li:nth-child(odd) {
+        color: coral;
+        font-size: 16px;
+        font-weight: bold;
+      }
+      h3::before {
+        content: "Mihina Ar sifat er valovasha ";
+      }
+      h3::after {
+        content: " ahono hoi nai";
+      }
+    </style>
+  </head>
+  <body>
+    <h1>this is normal text</h1>
+    <input class="btn" type="button" value="Submit" />
+    <a href="https://www.google.com">Google Here</a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/:visited"
+      >Visited Pseudo</a
+    >
+    <a
+      href="https://www.businessinsider.com/most-popular-websites-2011-12"
+      target="_blank"
+      >Not visited</a
+    >
+    <h3>i am h3 tag</h3>
+    <h3>i am h3 tag</h3>
+    <h3>i am h3 tag</h3>
+    <h3>i am h3 tag</h3>
+    <h3>i am h3 tag</h3>
+    <div>
+      <ol>
+        <li>Anik</li>
+        <li>Apy</li>
+        <li>Jahangir</li>
+        <li>Rita</li>
+        <li>Mim</li>
+        <li>Sifat</li>
+        <li>Babul</li>
+        <li>Abir</li>
+      </ol>
+    </div>
+  </body>
+</html>

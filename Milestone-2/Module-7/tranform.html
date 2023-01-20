@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transform</title>
+    <style>
+      .container {
+        height: 200px;
+        width: 200px;
+        border: 2px solid khaki;
+      }
+      .inner {
+        height: 200px;
+        width: 200px;
+        border: 2px solid khaki;
+        transform: scale(1) rotate(45deg) translate(50px, 50px)
+          skew(80deg, 70deg);
+      }
+      .container {
+        background-color: skyblue;
+      }
+      .inner {
+        background-color: coral;
+      }
+      img {
+        transform: skew(15deg);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Transformation in CSS</h1>
+    <img src="images/firefox.png" alt="" />
+    <div>
+      <div class="container">
+        <div class="inner">box-1</div>
+      </div>
+      <div class="container">
+        <div class="inner">box-2</div>
+      </div>
+      <div class="container">
+        <div class="inner">box-3</div>
+      </div>
+    </div>
+  </body>
+</html>
